@@ -214,6 +214,18 @@ a:hover {
     justify-content: space-between;
     align-content: space-around;
 }
+@media(min-width: 400px){
+    .gridexp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+}
 
 .cardexp{
     background-color: #757575;
@@ -258,4 +270,5 @@ input[type="submit"]{
     padding: 10px;
     grid-column: 2 / 3;
     justify-self: end;
+
 }
